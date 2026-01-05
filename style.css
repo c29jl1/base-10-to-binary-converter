@@ -1,0 +1,155 @@
+.title {
+    text-align: center;
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 51px;
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.footer2 {
+    text-align: center;
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.keyTitle {
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.abbreviations {
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.keys {
+    color: rgb(255, 189, 139);
+    font-family: 'Operator Mono', monospace;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
+body {
+    background-color: rgb(223, 69, 69);
+}
+
+.button {
+    background-color: rgb(255, 189, 139);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Operator Mono', monospace;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.specialButton {
+    background-color: rgb(255, 189, 139);
+    border: none;
+    color: white;
+    padding: 20px 26px;
+    text-align: center;
+    border-radius: 12px;
+    font-family: 'Operator Mono', monospace;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(254, 147, 94);
+}
+
+.specialButton:hover {
+    background-color: rgb(254, 147, 94);
+}
+
+#display {
+    font-family: 'Operator Mono', monospace;
+    font-size: 36px;
+    margin-top: 4px;
+    padding: 6px;
+    border: 2px solid rgb(255, 189, 138);
+    border-radius: 12px;
+    height: 50px;
+    width: 320px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#binaryOutput {
+    font-family: 'Operator Mono', monospace;
+    font-size: 14px;
+    padding: 6px;
+    border: 2px solid rgb(255, 189, 138);
+    border-radius: 12px;
+    height: 16px;
+    width: 320px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#calculator-container {
+    text-align: center;
+    margin-top: 50px;
+    width: 450px;
+    height: 550px;
+    background-color: rgb(75, 118, 229);
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(255, 189, 139);
+    box-sizing: border-box;
+    font-family: 'Operator Mono', monospace;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    margin-top: 40px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 260px;
+}
+
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 220px;
+    max-width: 300px;
+}
+
+.keys {
+    margin: 0 0 20px 0;
+    padding-left: 20px;
+}

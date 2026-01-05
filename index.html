@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Binary Translator (Base 10 → Binary)</title>
+</head>
+<body>
+    <h1 class="title">Binary Translator (Base 10 → Binary)</h1>
+    <div class="main-container">
+        <div class="calculator">
+            <div id="calculator-container">
+                <input type="text" id="display" placeholder="Enter a base‑10 integer" inputmode="numeric" />
+                <input type="text" id="binaryOutput" placeholder="Binary output" readonly />
+
+                <div class="buttons">
+                    <button class="specialButton" onclick="allClear()">AC</button>
+                    <button class="button" onclick="clearEntry()">C</button>
+                    <button class="button" onclick="appendToDisplay('+')">+</button>
+                    <button class="button" onclick="appendToDisplay('-')">-</button>
+                    <button class="button" onclick="appendToDisplay('*')">*</button>
+                    <button class="button" onclick="appendToDisplay('/')">/</button>
+
+                    
+                    <button class="button" onclick="appendToDisplay('8')">8</button>
+                    <button class="button" onclick="appendToDisplay('9')">9</button>
+
+                    <button class="button" onclick="appendToDisplay('4')">4</button>
+                    <button class="button" onclick="appendToDisplay('5')">5</button>
+                    <button class="button" onclick="appendToDisplay('6')">6</button>
+                    <button class="button" onclick="appendToDisplay('7')">7</button>
+
+                    <button class="button" onclick="appendToDisplay('0')">0</button>
+                    <button class="button" onclick="appendToDisplay('1')">1</button>
+                    <button class="button" onclick="appendToDisplay('2')">2</button>
+                    <button class="button" onclick="appendToDisplay('3')">3</button>
+
+                    
+                    <button class="button" onclick="convertToBinary()">Convert →</button>
+                    <!-- <button class="button" onclick="pasteClipboard()">Paste</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="info-panel">
+            <div class="abbreviations">
+                <h3 class="keyTitle">Calculator Abbreviations</h3>
+                <ul class="keys">
+                    <li><strong>AC:</strong> All Clear</li>
+                    <li><strong>C:</strong> Clear Entry</li>
+                </ul>
+            </div>
+            <div class="shortcuts">
+                <h3 class="keyTitle">Keyboard Shortcuts</h3>
+                <ul class="keys">
+                    <li><strong>Enter:</strong> Convert to binary</li>
+                    <li><strong>Backspace:</strong> Clear Entry</li>
+                    <li><strong>0–9:</strong> Decimal digits</li>
+                    <!-- <li><strong>Ctrl+V / Paste:</strong> Paste decimal input</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer class="footer">Created by: Jason Loo</footer>
+    <footer class="footer2">This is not a finalized calculator</footer>
+    <footer class="footer2">This is a work in progress</footer>
+</body>
+</html>
